@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import spacy
 from sklearn.metrics.pairwise import cosine_similarity
-from model.py import all_questions, all_questions_dict, questions_list
+from model import all_questions, all_questions_dict, questions_list
 
 app = FastAPI()
 

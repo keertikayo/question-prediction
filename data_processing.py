@@ -1,5 +1,5 @@
 import random
-from indexer_file import Indexer
+from indexer import Indexer
 
 indexer=Indexer()
 
